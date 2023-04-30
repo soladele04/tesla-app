@@ -13,7 +13,7 @@
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	           We are raising millionaires in IT automation.
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.
-	Class32 will start on April 15, 2023. </h1>
+	Class32 will start on May 29th, 2023. </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
