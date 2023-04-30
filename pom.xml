@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-jango</finalName>
+		<finalName>tesla-WIP</finalName>
 		
 		<plugins>
 			<plugin>
