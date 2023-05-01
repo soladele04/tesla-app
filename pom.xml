@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application-demo</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.7-SNAPSHOT</version> 
+	<version>0.0.9-SNAPSHOT</version> 
 	
 	<name>maven-web-application</name>
 
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-jango</finalName>
+		<finalName>tesla-WIP</finalName>
 		
 		<plugins>
 			<plugin>
