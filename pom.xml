@@ -8,7 +8,7 @@
 	
 	<version>0.0.8-SNAPSHOT</version> 
 	
-	<name>maven-web-application</name>
+	<name>maven-web-application-demo</name>
 
 	<description>Maven Web Project for Java Project</description>
 
