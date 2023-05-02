@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application-demo</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.8-SNAPSHOT</version> 
+	<version>0.0.8.1-SNAPSHOT</version> 
 	
 	<name>maven-web-application-demo</name>
 
@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-WIP</finalName>
+		<finalName>tesla-Upgrade</finalName>
 		
 		<plugins>
 			<plugin>
