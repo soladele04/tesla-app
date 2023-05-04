@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application-demo</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.9</version> 
+	<version>0.0.1-SNAPSHOT</version> 
 	
 	<name>maven-web-application-demo</name>
 
@@ -94,20 +94,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.222.250.128:8081/repository/Tesla-front-end-releases/</url>
+	      <name>TOKAL Logistics LLC Releases Nexus Repository</name>
+	      <url>http://18.222.250.128:8081/repository/Fintech-Frontend-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.222.250.128:8081/repository/Tesla-front-end-snapshot/</url>
+	      <name>TOKAL Logistics LLC Snapshot Nexus Repository </name>
+	      <url>http://18.222.250.128:8081/repository/Fintech-Fronend-Snaphots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-Final</finalName>
+		<finalName>TOKAL-initial</finalName>
 		
 		<plugins>
 			<plugin>
