@@ -107,7 +107,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-Upgrade</finalName>
+		<finalName>tesla-Final</finalName>
 		
 		<plugins>
 			<plugin>
