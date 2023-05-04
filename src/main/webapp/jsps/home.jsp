@@ -14,8 +14,8 @@
 	           We are raising millionaires in IT automation across the globe.
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.
 	Class32 will start on May 29th, 2023. This is the best class of the decade. 
-	You will definitely get the value for your money.
-	Come one! Come all! </h1>
+	You will definitely get the value for your money. 
+	Hurry up! Come one! Come all! </h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
