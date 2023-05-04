@@ -6,7 +6,8 @@ node{
     stage('2test&buils'){
     sh "${mavenHome}/bin/mvn clean package"
   } 
-  /*  stage('3codequality'){
+  /*  
+    stage('3codequality'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
   } 
     stage('4nexusbkup'){
@@ -32,5 +33,6 @@ node{
     durango application version 0.08.1. All bugs from previous releases fixed, 
     tested and functional. ''', subject: 'Tesla App Build Status', to: 
     'yemi.ladele@gmail.com'
-  } */
+  } 
+  */
 }
