@@ -1,0 +1,36 @@
+node{
+    def mavenHome = tool name: 'maven'
+    stage('1clonecode'){
+   git "https://github.com/soladele04/tesla-app"
+  } 
+    stage('2test&buils'){
+    sh "${mavenHome}/bin/mvn clean package"
+  } 
+    stage('3codequality'){
+    sh "${mavenHome}/bin/mvn sonar:sonar"
+  } 
+    stage('4nexusbkup'){
+    sh "${mavenHome}/bin/mvn deploy"
+  }
+    stage('5deploy2UAT'){
+    sh "echo 'deploy application to UAT' "
+    deploy adapters: [tomcat9(credentialsId: 'Tomcat Credential', path: '', url: 'http://18.221.201.137:8080/')], contextPath: null, war: 'target/*war'
+  }
+    stage('6approvalgate'){
+    sh "echo 'ready for review'"
+    timeout(time:9, unit:'HOURS') {
+    input message:'Application ready for delpoyment,please, review and approve'
+    }
+  }
+  stage('7deploy2prod'){
+    sh "echo 'deploy application to Production' "
+    deploy adapters: [tomcat9(credentialsId: 'Tomcat Credential', path: '', url: 'http://18.221.201.137:8080/')], contextPath: null, war: 'target/*war'
+  }
+  stage('8emailnotification'){emailext body: '''Hi all, 
+    This is to inform you of a successful build and deployment of the tesla    
+    durango application version 0.08.1. All bugs from previous releases fixed, 
+    tested and functional. ''', subject: 'Tesla App Build Status', to: 
+    'yemi.ladele@gmail.com'
+  }
+}
+
