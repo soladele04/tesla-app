@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.17.167.158:7000/repository/ebayCI-Frontend-Releases/</url>
+	      <url>http://3.17.167.158:7000/repository/tesla-CI-Frontend-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.17.167.158:7000/repository/ebayCI-Frontend-Snapshots/</url>
+	      <url>http://3.17.167.158:7000/repository/teslaCI-Frontend-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
